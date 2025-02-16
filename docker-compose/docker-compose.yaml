@@ -21,7 +21,7 @@ services:
     networks:
       - network
     ports:
-      - "8080:8080"
+      - "8085:8080"
   app:
     image: vaadinapp
     build: ../
