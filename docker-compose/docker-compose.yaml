@@ -27,6 +27,8 @@ services:
     build: ../
     container_name: vaadinapp
     restart: always
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     depends_on:
       - db
     networks:
