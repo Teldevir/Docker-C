@@ -8,6 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @Theme
+@PWA(name = "My Progressive Web Application",
+		shortName = "MyPWA")
 public class Application implements AppShellConfigurator {
 
 	public static void main(String[] args) {
